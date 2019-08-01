@@ -4,6 +4,7 @@ import DatePicker from "react-datepicker";
 import format from "date-fns/format";
 import getDay from "date-fns/getDay";
 import { Typography } from "@material-ui/core";
+import Chart from './Chart'
 import './vars'
 
 export default class Weeklies extends React.Component {
@@ -76,7 +77,7 @@ export default class Weeklies extends React.Component {
                     </Widget>
                     </div>
                     </div>
-                {global.flag ? ("Chart goes here") : (
+                {global.flag ? (<Chart />) : (
                     <div style={{ position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%, -50%)'}}>
                         <Widget>
                             No data to display
