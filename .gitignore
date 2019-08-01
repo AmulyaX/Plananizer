@@ -1,0 +1,31 @@
+spring-boot/Plananizer/HELP.md
+spring-boot/Plananizer/target/
+!spring-boot/Plananizer/.mvn/wrapper/maven-wrapper.jar
+!**spring-boot/Plananizer/src/main/**
+!**spring-boot/Plananizer/src/test/**
+
+### STS ###
+spring-boot/Plananizer/.apt_generated
+spring-boot/Plananizer/.classpath
+spring-boot/Plananizer/.factorypath
+spring-boot/Plananizer/.project
+spring-boot/Plananizer/.settings
+spring-boot/Plananizer/.springBeans
+spring-boot/Plananizer/.sts4-cache
+
+### IntelliJ IDEA ###
+spring-boot/Plananizer/.idea
+spring-boot/Plananizer/*.iws
+spring-boot/Plananizer/*.iml
+spring-boot/Plananizer/*.ipr
+
+### NetBeans ###
+spring-boot/Plananizer/nbproject/private/
+spring-boot/Plananizer/nbbuild/
+spring-boot/Plananizer/dist/
+spring-boot/Plananizer/nbdist/
+spring-boot/Plananizer/.nb-gradle/
+spring-boot/Plananizer/build/
+
+### VS Code ###
+spring-boot/Plananizer/.vscode/
