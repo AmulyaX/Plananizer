@@ -8,6 +8,7 @@ import {
   CloudUpload as Storage,
   ArrowBack as ArrowBackIcon,
   SlowMotionVideo as Present,
+  Timer as Time,
 } from "@material-ui/icons";
 import classNames from 'classnames';
 
@@ -25,7 +26,8 @@ const structure = [
       { label: 'Monthlies', link: '/app/PresentationDock/Monthlies' }
     ],
   },
-  { id: 2, type: 'divider' },
+  { id: 2, label: 'Summary', link: '/app/Summary', icon: <Time /> },
+  { id: 3, type: 'divider' },
 ];
 
 const SidebarView = ({ classes, theme, toggleSidebar, isSidebarOpened, isPermanent, location }) => {
