@@ -1,3 +1,5 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
 spring-boot/Plananizer/HELP.md
 spring-boot/Plananizer/target/
 !spring-boot/Plananizer/.mvn/wrapper/maven-wrapper.jar
@@ -29,3 +31,25 @@ spring-boot/Plananizer/build/
 
 ### VS Code ###
 spring-boot/Plananizer/.vscode/
+
+# dependencies
+reactjs/plananizer/node_modules
+reactjs/plananizer/.pnp
+reactjs/plananizer/.pnp.js
+
+# testing
+reactjs/plananizer/coverage
+
+# production
+reactjs/plananizer/build
+
+# misc
+reactjs/plananizer/.DS_Store
+reactjs/plananizer/.env.local
+reactjs/plananizer/.env.development.local
+reactjs/plananizer/.env.test.local
+reactjs/plananizer/.env.production.local
+
+reactjs/plananizer/npm-debug.log*
+reactjs/plananizer/yarn-debug.log*
+reactjs/plananizer/yarn-error.log*
