@@ -21,7 +21,8 @@ const structure = [
     link: '/app/PresentationDock',
     icon: <Present />,
     children: [
-      { label: 'Weeklies', link: '/app/PresentationDock/Weeklies' }
+      { label: 'Weeklies', link: '/app/PresentationDock/Weeklies' },
+      { label: 'Monthlies', link: '/app/PresentationDock/Monthlies' }
     ],
   },
   { id: 2, type: 'divider' },
