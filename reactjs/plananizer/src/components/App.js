@@ -21,8 +21,8 @@ const App = () => (
   <MuiThemeProvider theme={theme}>
     <BrowserRouter>
       <Switch>
-        <Route exact path="/" render={() => <Redirect to="/app/dashboard" />} />
-        <Route exact path="/app" render={() => <Redirect to="/app/dashboard" />} />
+        <Route exact path="/" render={() => <Redirect to="/app/StorageArea" />} />
+        <Route exact path="/app" render={() => <Redirect to="/app/StorageArea" />} />
         <PrivateRoute path="/app" component={Layout} />
       </Switch>
     </BrowserRouter>
