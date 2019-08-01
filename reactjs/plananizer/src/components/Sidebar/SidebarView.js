@@ -7,6 +7,7 @@ import {
 import {
   CloudUpload as Storage,
   ArrowBack as ArrowBackIcon,
+  SlowMotionVideo as Present,
 } from "@material-ui/icons";
 import classNames from 'classnames';
 
@@ -14,7 +15,16 @@ import SidebarLink from './components/SidebarLink/SidebarLinkContainer';
 
 const structure = [
   { id: 0, label: 'Storage Area', link: '/app/StorageArea', icon: <Storage /> },
-  { id: 1, type: 'divider' },
+  {
+    id: 1,
+    label: 'Presentation Dock',
+    link: '/app/PresentationDock',
+    icon: <Present />,
+    children: [
+      { label: 'Weeklies', link: '/app/PresentationDock/Weeklies' }
+    ],
+  },
+  { id: 2, type: 'divider' },
 ];
 
 const SidebarView = ({ classes, theme, toggleSidebar, isSidebarOpened, isPermanent, location }) => {

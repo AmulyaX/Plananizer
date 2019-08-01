@@ -8,6 +8,7 @@ import Sidebar from '../Sidebar';
 
 // pages
 import StorageArea from '../../pages/StorageArea';
+import Weeklies from '../../pages/Weeklies';
 
 const Layout = ({ classes, isSidebarOpened, toggleSidebar }) => (
   <div className={classes.root}>
@@ -20,6 +21,8 @@ const Layout = ({ classes, isSidebarOpened, toggleSidebar }) => (
           <div className={classes.fakeToolbar} />
           <Switch>
           <Route path="/app/StorageArea" component={StorageArea} />
+          <Route exact path="/app/PresentationDock" render={() => <Redirect to="/app/PresentationDock/Weeklies" />} />
+            <Route path="/app/PresentationDock/Weeklies" component={Weeklies} />
           </Switch>
         </div>
       </React.Fragment>
