@@ -1,6 +1,8 @@
 # Plananizer
 An Expenses Planner app to store entries for different expenses over a time period and display accordingly, back-end built using Spring Boot and front-end on ReactJS
 
+Credits to https://github.com/flatlogic/react-material-admin for the initial UI template.
+
 # How-to-use
 ```
 git clone https://github.com/AmulyaX/Plananizer.git -b master Plananizer
