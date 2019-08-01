@@ -3,6 +3,7 @@ import React from 'react'
 import Widget from '../../components/Widget'
 
 import Daily from './components/Daily'
+import Weekly from './components/Weekly'
 
 export default class StorageArea extends React.Component {
     render(){
@@ -12,6 +13,11 @@ export default class StorageArea extends React.Component {
                     <Widget>
                         <Daily/>
                     </Widget>
+                    <div style={{ position: 'relative', left: '20%'}}>
+                        <Widget>
+                            <Weekly/>
+                        </Widget>
+                    </div>
                 </div>
             </React.Fragment>
         )
