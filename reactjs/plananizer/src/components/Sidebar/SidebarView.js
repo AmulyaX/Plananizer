@@ -5,7 +5,7 @@ import {
   List,
   withStyles } from "@material-ui/core";
 import {
-  Home as HomeIcon,
+  CloudUpload as Storage,
   ArrowBack as ArrowBackIcon,
 } from "@material-ui/icons";
 import classNames from 'classnames';
@@ -13,7 +13,7 @@ import classNames from 'classnames';
 import SidebarLink from './components/SidebarLink/SidebarLinkContainer';
 
 const structure = [
-  { id: 0, label: 'Market Watch', link: '/app/dashboard', icon: <HomeIcon /> },
+  { id: 0, label: 'Storage Area', link: '/app/StorageArea', icon: <Storage /> },
   { id: 1, type: 'divider' },
 ];
 

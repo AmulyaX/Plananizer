@@ -7,7 +7,7 @@ import Header from '../Header';
 import Sidebar from '../Sidebar';
 
 // pages
-import Dashboard from '../../pages/dashboard';
+import StorageArea from '../../pages/StorageArea';
 
 const Layout = ({ classes, isSidebarOpened, toggleSidebar }) => (
   <div className={classes.root}>
@@ -19,7 +19,7 @@ const Layout = ({ classes, isSidebarOpened, toggleSidebar }) => (
         <div className={classnames(classes.content, { [classes.contentShift]: isSidebarOpened })}>
           <div className={classes.fakeToolbar} />
           <Switch>
-            <Route path="/app/dashboard" component={Dashboard} />
+          <Route path="/app/StorageArea" component={StorageArea} />
           </Switch>
         </div>
       </React.Fragment>
